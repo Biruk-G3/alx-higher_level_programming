@@ -5,14 +5,11 @@ BUZZ = "Buzz"
 
 def fizzbuzz():
     for number in range(101):
-    	if number % 3 == 0 and number % 5 == 0:
-             print(FIZZ, BUZZ)
-             continue
-    	elif number % 3 == 0:
-             print(FIZZ)
-             continue
-    	elif number % 5 == 0:
-             print(BUZZ)
-             continue
-    	else:
-	print(number)
+        if (number % 3 == 0 and number % 5 == 0):
+            print("%s%s" % (FIZZ, BUZZ), end=' ')
+        elif (number % 3 == 0):
+            print("%s" % (FIZZ), end=' ')
+        elif (number % 5 == 0):
+            print("%s" % (BUZZ), end=' ')
+        else:
+            print("%d" % (number), end=' ')
