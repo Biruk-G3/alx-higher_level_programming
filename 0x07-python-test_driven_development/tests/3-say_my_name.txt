@@ -13,12 +13,12 @@ Usage
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
     >>> say_my_name("Biruk", "Gelelcha")
-    My name is Beta Scribbles
+    My name is Biruk Gelelcha
 
 ::
 
-    >>> say_my_name("Jerry", "yafet")
-    My name is Jerry yafet
+    >>> say_my_name("Tom Jerry", "Avril")
+    My name is Tom Jerry, Avril
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
