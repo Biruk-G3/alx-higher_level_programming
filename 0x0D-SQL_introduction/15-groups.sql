@@ -1,5 +1,5 @@
 -- displays the number of records with the same score
 SELECT `score` , COUNT(*) AS `number`
-FROME `second_table`
+FROM `second_table`
 GROUP BY `score`
-ORDER BYY `number` DESC;
+ORDER BY `number` DESC;
